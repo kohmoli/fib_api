@@ -1,3 +1,33 @@
+## URL
+
+https://fib-api-ifx8.onrender.com/fib
+
+## File
+
+- main.py（主要）
+  - n番目のフィボナッチ数を返却するプログラム。
+- test_main.py
+  - main.pyの動作をテストするプログラム。
+
+
+## How to Setup
+
+```
+pip install -r requirements.txt
+```
+
+## How to Test
+
+```
+pytest
+```
+
+## How to Run
+
+```
+uvicorn main:app --reload
+```
+
 # Deploy FastAPI on Render
 
 Use this repo as a template to deploy a Python [FastAPI](https://fastapi.tiangolo.com) service on Render.
